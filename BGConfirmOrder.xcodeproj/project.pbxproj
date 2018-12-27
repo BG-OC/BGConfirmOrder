@@ -125,7 +125,7 @@
 		52E2BAD921D4C22600B5BE94 /* BGConfirmOrder */ = {
 			isa = PBXGroup;
 			children = (
-				52E2BB0C21D4C24D00B5BE94 /* CRConfirmOrder */,
+				52E2BB0C21D4C24D00B5BE94 /* BGConfirmOrder */,
 				52E2BADA21D4C22600B5BE94 /* AppDelegate.h */,
 				52E2BADB21D4C22600B5BE94 /* AppDelegate.m */,
 				52E2BADD21D4C22600B5BE94 /* ViewController.h */,
@@ -157,14 +157,14 @@
 			path = BGConfirmOrderUITests;
 			sourceTree = "<group>";
 		};
-		52E2BB0C21D4C24D00B5BE94 /* CRConfirmOrder */ = {
+		52E2BB0C21D4C24D00B5BE94 /* BGConfirmOrder */ = {
 			isa = PBXGroup;
 			children = (
 				52E2BB0F21D4C29200B5BE94 /* Protocol */,
 				52E2BB0E21D4C27300B5BE94 /* ServiceProvider */,
 				52E2BB0D21D4C26600B5BE94 /* Source */,
 			);
-			path = CRConfirmOrder;
+			path = BGConfirmOrder;
 			sourceTree = "<group>";
 		};
 		52E2BB0D21D4C26600B5BE94 /* Source */ = {
