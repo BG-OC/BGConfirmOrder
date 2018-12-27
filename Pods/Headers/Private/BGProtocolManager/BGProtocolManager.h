@@ -1,0 +1,1 @@
+../../../BGProtocolManager/BGProtocolManager/BGProtocolManager/BGProtocolManager.h

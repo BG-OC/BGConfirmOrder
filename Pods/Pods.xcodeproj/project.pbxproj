@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C4219E747CCE153505BC0FC2955D154 /* Pods-BGConfirmOrder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6482BE983C01956E95E3394F6C6A200 /* Pods-BGConfirmOrder-dummy.m */; };
+		67AD8AED08D90BBDC7B6B1DA09E63183 /* BGProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC981E8979D7CF584D6A1A3CF282D29B /* BGProtocolManager.m */; };
+		89B2F1DD16D240AFEA15FA1EA04FA9A9 /* BGProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 02237EB6CD3AE3D6847AE5C4F7EA856C /* BGProtocolManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		967BDB8E239DF50907E1327062FA4C1F /* BGProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C73529EE0B8084EEE1EF7D1B6D87D538 /* BGProtocolManager-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E50D23176F32E0FBF1EC02127D137C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45373FED4EE0B818ADD5F13C75C45B51;
+			remoteInfo = BGProtocolManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02237EB6CD3AE3D6847AE5C4F7EA856C /* BGProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BGProtocolManager.h; path = BGProtocolManager/BGProtocolManager/BGProtocolManager.h; sourceTree = "<group>"; };
+		1AF463ED90031F4369FB8CC911B57190 /* Pods-BGConfirmOrder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BGConfirmOrder-acknowledgements.plist"; sourceTree = "<group>"; };
+		39276214F20CC65C5F2898E6F0E9A259 /* libPods-BGConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BGConfirmOrder.a"; path = "libPods-BGConfirmOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4748B75CFB7BCDA69D6DCB4422A3E024 /* BGConfirmOrderServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BGConfirmOrderServiceProtocol.h; path = BGConfirmOrderServiceProtocol/BGConfirmOrderServiceProtocol/BGConfirmOrderServiceProtocol.h; sourceTree = "<group>"; };
+		4BC1A4C0AC4C04B54406718FA9B12C3D /* Pods-BGConfirmOrder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGConfirmOrder-frameworks.sh"; sourceTree = "<group>"; };
+		54FBA59A718491084829ABC5CA681F70 /* Pods-BGConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGConfirmOrder.debug.xcconfig"; sourceTree = "<group>"; };
+		5C5E9534C7627915FFC8AD2A79CE8AF8 /* BGProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BGProtocolManager-prefix.pch"; sourceTree = "<group>"; };
+		5D1EE8D434AE1835DEA63ADF52D14A59 /* Pods-BGConfirmOrder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BGConfirmOrder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86BD2E3CD18E128017840EAC9551637C /* libBGProtocolManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBGProtocolManager.a; path = libBGProtocolManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D20D962D62A234CDCDCE3BB3303DA35 /* Pods-BGConfirmOrder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGConfirmOrder-resources.sh"; sourceTree = "<group>"; };
+		A40A4A028792D6003AA2382DA5A5DD11 /* BGProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BGProtocolManager.xcconfig; sourceTree = "<group>"; };
+		B36F4A59BD4E98A197E6173C49537DC3 /* Pods-BGConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGConfirmOrder.release.xcconfig"; sourceTree = "<group>"; };
+		C73529EE0B8084EEE1EF7D1B6D87D538 /* BGProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BGProtocolManager-dummy.m"; sourceTree = "<group>"; };
+		E6482BE983C01956E95E3394F6C6A200 /* Pods-BGConfirmOrder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BGConfirmOrder-dummy.m"; sourceTree = "<group>"; };
+		FC981E8979D7CF584D6A1A3CF282D29B /* BGProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BGProtocolManager.m; path = BGProtocolManager/BGProtocolManager/BGProtocolManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		596629AEA555AB10A8F2844B1B8993A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F742696C8A8EDDC4857A2350306FE553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DEFF3CF7BF40BFFF9361F8F101CC12F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC4557CA1DB4B469A6BDDB07D218C055 /* BGConfirmOrderServiceProtocol */,
+				1774D5E2E3AA7D4A7B6A42063769DEF0 /* BGProtocolManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11EC211C547EEB730BB0D0452B3589DB /* Pods-BGConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				5D1EE8D434AE1835DEA63ADF52D14A59 /* Pods-BGConfirmOrder-acknowledgements.markdown */,
+				1AF463ED90031F4369FB8CC911B57190 /* Pods-BGConfirmOrder-acknowledgements.plist */,
+				E6482BE983C01956E95E3394F6C6A200 /* Pods-BGConfirmOrder-dummy.m */,
+				4BC1A4C0AC4C04B54406718FA9B12C3D /* Pods-BGConfirmOrder-frameworks.sh */,
+				9D20D962D62A234CDCDCE3BB3303DA35 /* Pods-BGConfirmOrder-resources.sh */,
+				54FBA59A718491084829ABC5CA681F70 /* Pods-BGConfirmOrder.debug.xcconfig */,
+				B36F4A59BD4E98A197E6173C49537DC3 /* Pods-BGConfirmOrder.release.xcconfig */,
+			);
+			name = "Pods-BGConfirmOrder";
+			path = "Target Support Files/Pods-BGConfirmOrder";
+			sourceTree = "<group>";
+		};
+		1774D5E2E3AA7D4A7B6A42063769DEF0 /* BGProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				02237EB6CD3AE3D6847AE5C4F7EA856C /* BGProtocolManager.h */,
+				FC981E8979D7CF584D6A1A3CF282D29B /* BGProtocolManager.m */,
+				A0ACB4F401DEA7B725A7772EE62C4EDC /* Support Files */,
+			);
+			name = BGProtocolManager;
+			path = BGProtocolManager;
+			sourceTree = "<group>";
+		};
+		1BDCB1B2A17BC858ADF7BCB577CA13DF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11EC211C547EEB730BB0D0452B3589DB /* Pods-BGConfirmOrder */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		333D935E8DF06077E6CF792A88482E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86BD2E3CD18E128017840EAC9551637C /* libBGProtocolManager.a */,
+				39276214F20CC65C5F2898E6F0E9A259 /* libPods-BGConfirmOrder.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				0DEFF3CF7BF40BFFF9361F8F101CC12F /* Pods */,
+				333D935E8DF06077E6CF792A88482E6E /* Products */,
+				1BDCB1B2A17BC858ADF7BCB577CA13DF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A0ACB4F401DEA7B725A7772EE62C4EDC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A40A4A028792D6003AA2382DA5A5DD11 /* BGProtocolManager.xcconfig */,
+				C73529EE0B8084EEE1EF7D1B6D87D538 /* BGProtocolManager-dummy.m */,
+				5C5E9534C7627915FFC8AD2A79CE8AF8 /* BGProtocolManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BGProtocolManager";
+			sourceTree = "<group>";
+		};
+		DC4557CA1DB4B469A6BDDB07D218C055 /* BGConfirmOrderServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				4748B75CFB7BCDA69D6DCB4422A3E024 /* BGConfirmOrderServiceProtocol.h */,
+			);
+			name = BGConfirmOrderServiceProtocol;
+			path = BGConfirmOrderServiceProtocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		313CB1DB64AD8C86C7D35264E485E384 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CE4776254A89B2F52D7BD3BF99F212 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B2F1DD16D240AFEA15FA1EA04FA9A9 /* BGProtocolManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06B0E927987FE6491D461FB43EF2FC78 /* Pods-BGConfirmOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E553F3BACE2359925D7952EC3BD07D92 /* Build configuration list for PBXNativeTarget "Pods-BGConfirmOrder" */;
+			buildPhases = (
+				313CB1DB64AD8C86C7D35264E485E384 /* Headers */,
+				B72D388B9132B70F27BEBBB64CFEA801 /* Sources */,
+				F742696C8A8EDDC4857A2350306FE553 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC25DA4AAA3464A75578D11B3BD4D90 /* PBXTargetDependency */,
+			);
+			name = "Pods-BGConfirmOrder";
+			productName = "Pods-BGConfirmOrder";
+			productReference = 39276214F20CC65C5F2898E6F0E9A259 /* libPods-BGConfirmOrder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		45373FED4EE0B818ADD5F13C75C45B51 /* BGProtocolManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86DDE68E54A5438E37D502834409DC27 /* Build configuration list for PBXNativeTarget "BGProtocolManager" */;
+			buildPhases = (
+				40CE4776254A89B2F52D7BD3BF99F212 /* Headers */,
+				0E50C2459D1935DD453336F38F3EF685 /* Sources */,
+				596629AEA555AB10A8F2844B1B8993A1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BGProtocolManager;
+			productName = BGProtocolManager;
+			productReference = 86BD2E3CD18E128017840EAC9551637C /* libBGProtocolManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 333D935E8DF06077E6CF792A88482E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45373FED4EE0B818ADD5F13C75C45B51 /* BGProtocolManager */,
+				06B0E927987FE6491D461FB43EF2FC78 /* Pods-BGConfirmOrder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E50C2459D1935DD453336F38F3EF685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967BDB8E239DF50907E1327062FA4C1F /* BGProtocolManager-dummy.m in Sources */,
+				67AD8AED08D90BBDC7B6B1DA09E63183 /* BGProtocolManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72D388B9132B70F27BEBBB64CFEA801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4219E747CCE153505BC0FC2955D154 /* Pods-BGConfirmOrder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC25DA4AAA3464A75578D11B3BD4D90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BGProtocolManager;
+			target = 45373FED4EE0B818ADD5F13C75C45B51 /* BGProtocolManager */;
+			targetProxy = E50D23176F32E0FBF1EC02127D137C04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A8C7B8D0F4E53144B6FE126F22CAA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40A4A028792D6003AA2382DA5A5DD11 /* BGProtocolManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BGProtocolManager/BGProtocolManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BGProtocolManager;
+				PRODUCT_NAME = BGProtocolManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F9CAFCF6D75F77763DF472ED3642B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FBA59A718491084829ABC5CA681F70 /* Pods-BGConfirmOrder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B23B3F80BFE7168ADBC3EAAC63D9D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36F4A59BD4E98A197E6173C49537DC3 /* Pods-BGConfirmOrder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1DA6BE43711777DEA9EA8E552427296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40A4A028792D6003AA2382DA5A5DD11 /* BGProtocolManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BGProtocolManager/BGProtocolManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BGProtocolManager;
+				PRODUCT_NAME = BGProtocolManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86DDE68E54A5438E37D502834409DC27 /* Build configuration list for PBXNativeTarget "BGProtocolManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DA6BE43711777DEA9EA8E552427296 /* Debug */,
+				0A8C7B8D0F4E53144B6FE126F22CAA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E553F3BACE2359925D7952EC3BD07D92 /* Build configuration list for PBXNativeTarget "Pods-BGConfirmOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F9CAFCF6D75F77763DF472ED3642B65 /* Debug */,
+				8B23B3F80BFE7168ADBC3EAAC63D9D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
