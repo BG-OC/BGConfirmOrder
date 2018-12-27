@@ -142,7 +142,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Source' do |source|
       source.source_files = 'BGConfirmOrder/BGConfirmOrder/Source/*.{h,m}'
-      source.framework  = "UIKit"
+      source.framework = "UIKit"
       source.dependency "BGConfirmOrder/Protocol"
   end
 
