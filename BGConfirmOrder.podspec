@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   这里是一个描述
+                   这里是一个描述详情
                    DESC
 
   s.homepage     = "https://github.com/BG-OC/BGConfirmOrder"
@@ -134,6 +134,11 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+  
+  s.subspec 'Protocol' do |protocol|
+    protocol.source_files = 'BGConfirmOrder/BGConfirmOrder/Protocol/*.{h,m}'
+    protocol.framework = "UIKit"
+  end
 
   s.subspec 'Source' do |source|
       source.source_files = 'BGConfirmOrder/BGConfirmOrder/Source/*.{h,m}'
