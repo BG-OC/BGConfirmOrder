@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   这里是一个描述详情
+                   这是一个详情描述
                    DESC
 
   s.homepage     = "https://github.com/BG-OC/BGConfirmOrder"
@@ -134,22 +134,21 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  
-  s.subspec 'Protocol' do |protocol|
-    protocol.source_files = 'BGConfirmOrder/BGConfirmOrder/Protocol/*.{h,m}'
-    protocol.framework = "UIKit"
+
+  s.subspec 'Protocol' do |ss|
+    ss.source_files = 'BGConfirmOrder/BGConfirmOrder/Protocol/*.{h,m}'
+    ss.framework = "UIKit"
+  end
+  s.subspec 'Source' do |ss|
+    ss.source_files = 'BGConfirmOrder/BGConfirmOrder/Source/*.{h,m}'
+    ss.framework  = "UIKit"
+    ss.dependency "BGConfirmOrder/Protocol"
+  end
+  s.subspec 'ServiceProvider' do |ss|
+    ss.source_files = 'BGConfirmOrder/BGConfirmOrder/ServiceProvider/*.{h,m}'
+    ss.dependency "BGProtocolManager"
+    ss.dependency "BGConfirmOrderServiceProtocol"
+    ss.dependency "BGConfirmOrder/Source"
   end
 
-  s.subspec 'Source' do |source|
-      source.source_files = 'BGConfirmOrder/BGConfirmOrder/Source/*.{h,m}'
-      source.framework = "UIKit"
-      source.dependency "BGConfirmOrder/Protocol"
-  end
-
-  s.subspec 'ServiceProvider' do |serviceProvider|
-      serviceProvider.source_files = 'BGConfirmOrder/BGConfirmOrder/ServiceProvider/*.{h,m}'
-      serviceProvider.dependency 'BGProtocolManager', '~> 0.0.1'
-      serviceProvider.dependency 'BGConfirmOrderServiceProtocol', '~> 0.0.1'
-      serviceProvider.dependency "BGConfirmOrder/Source"
-  end
 end
